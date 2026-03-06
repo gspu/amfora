@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"code.rocketnine.space/tslocum/cview"
+	"codeberg.org/tslocum/cview"
 	"github.com/atotto/clipboard"
 	"github.com/gdamore/tcell/v2"
 	"github.com/makeworld-the-better-one/amfora/config"

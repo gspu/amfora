@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strings"
 
-	"code.rocketnine.space/tslocum/cview"
+	"codeberg.org/tslocum/cview"
 	"github.com/spf13/viper"
 )
 

@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"code.rocketnine.space/tslocum/cview"
+	"codeberg.org/tslocum/cview"
 	"github.com/alecthomas/chroma/formatters"
 	"github.com/alecthomas/chroma/lexers"
 	"github.com/alecthomas/chroma/styles"
@@ -96,7 +96,6 @@ func wrapLine(line string, width int, prefix, suffix string, includeFirst bool) 
 // It also returns a slice of link URLs.
 // numLinks is the number of links that exist so far.
 // width is the number of columns to wrap to.
-//
 //
 // proxied is whether the request is through the gemini:// scheme.
 // If it's not a gemini:// page, set this to true.

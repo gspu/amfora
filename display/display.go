@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"code.rocketnine.space/tslocum/cview"
+	"codeberg.org/tslocum/cview"
 	"github.com/gdamore/tcell/v2"
 	"github.com/makeworld-the-better-one/amfora/cache"
 	"github.com/makeworld-the-better-one/amfora/client"
@@ -110,9 +110,11 @@ func Init(version, commit, builtBy string) {
 
 	if viper.GetBool("a-general.color") {
 		bottomBar.SetBackgroundColor(config.GetColor("bottombar_bg"))
+		bottomBar.SetFieldBackgroundColorFocused(config.GetColor("bottombar_bg"))
 		bottomBar.SetLabelColor(config.GetColor("bottombar_label"))
 		bottomBar.SetFieldBackgroundColor(config.GetColor("bottombar_bg"))
 		bottomBar.SetFieldTextColor(config.GetColor("bottombar_text"))
+		bottomBar.SetFieldTextColorFocused(config.GetColor("bottombar_text"))
 
 		browser.SetTabBackgroundColor(config.GetColor("bg"))
 		browser.SetTabBackgroundColorFocused(config.GetColor("tab_num"))

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"code.rocketnine.space/tslocum/cview"
+	"codeberg.org/tslocum/cview"
 	humanize "github.com/dustin/go-humanize"
 	"github.com/gdamore/tcell/v2"
 	"github.com/makeworld-the-better-one/amfora/config"

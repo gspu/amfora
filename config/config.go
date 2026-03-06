@@ -1,6 +1,7 @@
 // Package config initializes all files required for Amfora, even those used by
 // other packages. It also reads in the config file and initializes a Viper and
 // the theme
+//
 //nolint:golint,goerr113
 package config
 
@@ -11,7 +12,7 @@ import (
 	"runtime"
 	"strings"
 
-	"code.rocketnine.space/tslocum/cview"
+	"codeberg.org/tslocum/cview"
 	"github.com/gdamore/tcell/v2"
 	"github.com/makeworld-the-better-one/amfora/cache"
 	homedir "github.com/mitchellh/go-homedir"

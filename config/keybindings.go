@@ -3,7 +3,7 @@ package config
 import (
 	"strings"
 
-	"code.rocketnine.space/tslocum/cview"
+	"codeberg.org/tslocum/cview"
 	"github.com/gdamore/tcell/v2"
 	"github.com/spf13/viper"
 )
